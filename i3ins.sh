@@ -5,12 +5,15 @@
 #apt-get install -y libbluetooth3 libgnome-bluetooth13
 #apt-get install -y gnome-power-manager
 #apt-get install -y python-gconf
+#xdg-user-dirs-update
 ########################################
-apt install -y acpi acpitool acpi-support acpid intel-microcode fancontrol intel-gpu-tools intel-microcode i965-va-driver mesa-utils mesa-utils-extra xserver-xorg-video-intel xinit laptop-detect
+apt install -y acpi acpitool acpi-support acpid fancontrol intel-gpu-tools intel-microcode i965-va-driver mesa-utils mesa-utils-extra xserver-xorg-video-intel xinit laptop-detect
+
 Xorg --configure
-sudo apt install curl wget apt-transport-https dirmngr
+
+apt install curl wget apt-transport-https dirmngr
+
 apt install i3-wm i3lock suckless-tools i3status i3blocks
-xdg-user-dirs-update
 
 mkdir ~/.config/
 
