@@ -7,7 +7,7 @@
 #apt-get install -y python-gconf
 #xdg-user-dirs-update
 ########################################
-apt install -y acpi acpitool acpi-support acpid fancontrol intel-gpu-tools intel-microcode i965-va-driver mesa-utils mesa-utils-extra xserver-xorg-video-intel xinit laptop-detect
+apt install -y acpi acpitool acpi-support acpid fancontrol intel-gpu-tools intel-microcode i965-va-driver mesa-utils mesa-utils-extra xserver-xorg-video-intel xserver-xorg-input-libinput xinit laptop-detect
 
 #Xorg --configure
 
