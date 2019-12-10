@@ -9,7 +9,7 @@
 ########################################
 apt install -y acpi acpitool acpi-support acpid fancontrol intel-gpu-tools intel-microcode i965-va-driver mesa-utils mesa-utils-extra xserver-xorg-video-intel xinit laptop-detect
 
-Xorg --configure
+#Xorg --configure
 
 apt install curl wget apt-transport-https dirmngr
 
@@ -50,7 +50,7 @@ apt-get install -y wireless-tools
 apt-get install -y pulseaudio-module-bluetooth
 apt-get install -y pulseaudio-module-x11
 apt-get install -y gstreamer1.0-pulseaudio
-apt-get install -y pactl xbacklight
+apt-get install -y xbacklight
 apt-get install -y feh gnome-icon-theme-full
 apt-get install -y python3-aptdaemon.pkcompat
 apt-get install -y fonts-noto-core
