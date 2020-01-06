@@ -36,6 +36,7 @@ chown -R manuel:manuel /home/manuel/
 
 ###### Install main apps, drivers and dependencies
 apt-get install -y libnm-gtk-common
+apt-get install -y sakura
 apt-get install -y pavucontrol
 apt-get install -y alsa-utils
 apt-get install -y lxappearance
