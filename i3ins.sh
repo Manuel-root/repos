@@ -2,10 +2,19 @@
 #########################
 #xdg-user-dirs-update
 #########################
-apt install -y install acpi acpitool acpi-support acpid fancontrol intel-microcode i965-va-driver mesa-utils mesa-utils-extra xserver-xorg-video-intel xinit sakura firmware-atheros firmware-misc-nonfree curl wget apt-transport-https dirmngr
+apt install -y sudo
+apt install -y ufw
+
+#habilitar el firewall
+
+#lebantar le red
+
+#habilitar contrib non-free
+
+apt install -y acpi acpitool acpi-support acpid intel-microcode xorg xserver-xorg-video-intel i965-va-driver mesa-utils mesa-utils-extra dbus-x11 libatk-adaptor libgail-common firmware-atheros udisks2 pulseaudio         
 #Xorg --configure
 
-apt install i3-wm i3lock suckless-tools i3status i3blocks
+apt install i3-wm suckless-tools i3blocks xwallpaper
 
 
 touch .bash_profile
@@ -20,23 +29,11 @@ echo "exec i3" > ~/.xinitrc
 
 chown -R manuel:manuel /home/manuel/
 
-apt-get install -y dbus-x11
-apt-get install -y pavucontrol
-apt-get install -y alsa-utils
-apt-get install -y lxappearance
-apt-get install -y policykit-1-gnome
-apt-get install -y gvfs-backends
-apt-get install -y gnome-system-tools
-apt-get install -y pulseaudio-module-bluetooth
-apt-get install -y pulseaudio-module-x11
-apt-get install -y feh
-apt-get install -y pcmanfm
-apt-get install -y python-wicd
-apt-get install -y wicd-daemon
-apt-get install -y wicd-gtk
-apt-get install -y wicd-ctl
-apt-get install -y wicd-GTK
-apt-get install -y wicd-cli
-apt-get install -y wicd
-apt-get install -y engrampa rar unrar zip unzip unace unace-nonfree bzip2 lzop p7zip-full p7zip-rar gzip lzip atril
-apt-get install -y gtk2-engines gtk2-engines-aurora gtk2-engines-murrine gtk2-engines-sugar gnome-themes-standard gnome-themes-extra papirus-icon-theme
+apt install -y network-manager
+apt install -y lfm cmus htop
+apt install -y sxiv
+apt install -y pavucontrol
+apt install -y policykit-1-gnome gufw
+apt install -y lxappearance papirus-icon-theme
+apt install -y rar unrar zip unzip unace unace-nonfree bzip2 lzop p7zip-full p7zip-rar gzip lzip atril
+apt install -y gtk2-engines gtk2-engines-aurora gtk2-engines-murrine gtk2-engines-sugar gnome-themes-standard gnome-themes-extra papirus-icon-theme
