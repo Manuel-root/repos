@@ -15,7 +15,7 @@ apt install -y ufw
 apt install -y acpi acpitool acpi-support acpid intel-microcode xorg xserver-xorg-video-intel i965-va-driver mesa-utils mesa-utils-extra dbus-x11 libatk-adaptor libgail-common firmware-atheros udisks2 network-manager rfkill pulseaudio     
 #Xorg --configure
 
-apt install i3-wm suckless-tools i3blocks xwallpaper
+apt install i3-wm suckless-tools i3blocks dunst libnotify-bin xwallpaper
 
 
 touch .bash_profile
