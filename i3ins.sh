@@ -2,6 +2,7 @@
 #########################
 #xdg-user-dirs-update
 #########################
+#path 
 apt remove tasksel
 apt install -y sudo
 apt install -y ufw
