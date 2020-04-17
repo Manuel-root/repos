@@ -31,7 +31,7 @@ echo "exec i3" > ~/.xinitrc
 
 chown -R manuel:manuel /home/manuel/
 
-apt install -y lfm cmus htop wget curl
+apt install -y ranger cmus htop wget curl
 apt install -y sxiv
 apt install -y pamix pulseaudio-module-bluetooth
 apt install -y policykit-1-gnome gufw
