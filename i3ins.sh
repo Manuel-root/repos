@@ -33,10 +33,10 @@ chown -R manuel:manuel /home/manuel/
 
 apt install -y lfm cmus htop wget curl
 apt install -y sxiv
-apt install -y pavucontrol
+apt install -y pamix pulseaudio-module-bluetooth
 apt install -y policykit-1-gnome gufw
 apt install -y lxappearance papirus-icon-theme
 apt install -y rar unrar zip unzip unace unace-nonfree bzip2 lzop p7zip-full p7zip-rar gzip lzip atril
 apt install -y gtk2-engines gtk2-engines-aurora gtk2-engines-murrine gtk2-engines-sugar gnome-themes-standard gnome-themes-extra papirus-icon-theme
 apt install -y firefox-esr libavformat58
-apt install -y blueman
+apt install -y bluez bluez-tools bluetooth
